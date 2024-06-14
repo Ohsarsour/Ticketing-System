@@ -2,7 +2,7 @@ import axios from 'axios';
 import { Ticket } from '../Types/Ticket';
 
 // Base url for the API endpoint
-const API_URL = 'http://localhost:5000/api/Tickets';
+const API_URL = 'http://localhost:5208/api/Tickets';
 
 //fetch all tickets
 export const getTickets = async (): Promise<Ticket[]> => {
